@@ -30,8 +30,18 @@ body::-webkit-scrollbar{
   display: none;
 }
 
-#custom-scrollbar > .active > button{
-  background-color: black;
-  height:26px;
-  transform: translateY(-3px);
+@keyframes myAnim {
+	0% {
+    background-color: white;
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+    background-color: black;
+	}
 }
+
+#custom-scrollbar > .active > button {
+  animation: myAnim 0.35s ease-out 0s 1 normal forwards;
+}
+

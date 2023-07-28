@@ -8,11 +8,13 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        flash : 'spin 3s linear infinite',
+        flash : 'pulse 1s linear infinite',
         wiggle: 'wiggle 1s ease-in-out infinite',
         spincircle: 'spincircle 1.5s ease 1',
         droop: 'droop 1s ease infinite',
-        up_in: 'upin 1s ease infinite'
+        up_in: 'upin 1s ease infinite',
+        glow: 'glow 4s ease infinite',
+        fadeout: 'fadeout 1s ease 1',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -35,7 +37,11 @@ module.exports = {
         upin: {
           'from': {opacity: '0', bottom: '0%'},
           'to': {opacity: '1', bottom: '50%'}
-      }
+        },
+        glow:{
+          '0%, 100%': {opacity: '1'},
+          '50%': {opacity: '0.75'},
+        },
       },
     },
   },
