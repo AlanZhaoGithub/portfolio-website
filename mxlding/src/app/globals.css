@@ -44,4 +44,3 @@ body::-webkit-scrollbar{
 #custom-scrollbar > .active > button {
   animation: myAnim 0.35s ease-out 0s 1 normal forwards;
 }
-

@@ -14,10 +14,10 @@ function GetDateTime(){
   )
 }
 
-function Iphone(){
+function Iphone(){  
     return (
         <div id="iphone-wrapper" className="flex flex-grow justify-self-center self-center m-8 mr-24">
-          <div id="iphone-container" className="flex h-[420px] w-[260px] 2xl:h-[780px] 2xl:w-[1280px] bg-black justify-self-center self-center p-7 border-2 rounded-3xl">
+          <div id="iphone-container" className="flex h-[420px] w-[260px] 2xl:h-[780px] 2xl:w-[1280px] bg-black justify-self-center self-center p-7 border-2 rounded-3xl z-30">
             <div id="iphone-screen" className="flex flex-col h-[360px] min-w-[200px] 2xl:h-[700px] 2xl:w-[1220px] bg-slate-900 justify-self-center self-center 2xl:ml-4" 
             style={{backgroundImage: `url('https://www.mactrast.com/wp-content/uploads/2016/09/Stars_1_Mac-582x301.jpg')`,
                     backgroundRepeat: `no-repeat`,
@@ -27,7 +27,7 @@ function Iphone(){
               </div>
               <div id="push-notification-container">
                 <div id="push-wrapper">
-                  <PushNotif project_title="Portfolio website"></PushNotif>
+                  <PushNotif project_title="Portfolio website" project_date="2023 July"></PushNotif>
                   <PushNotif></PushNotif>
                   <PushNotif></PushNotif>
                 </div>
