@@ -27,13 +27,13 @@ function ProjectSection() {
                             <p className="text-sm md:text-xl"> Integrated a custom written RESTful api into frontend built with DaisyUI and React</p>
                         </div>
                     </a>
-                    <a href="https://github.com/AlanZhaoGithub/CSC258_Project" className="transition ease-in-out delay-50 hover:text-[#00FFFF]  hover:scale-110 hover:-translate-y-1 hover:translate-x-4 duration-300 rounded-2xl p-2 m-4 2xl:p-10">
+                    <a href="https://github.com/AlanZhaoGithub/CSC258_Project" className="transition ease-in-out delay-50 hover:text-[#0000EE]  hover:scale-110 hover:-translate-y-1 hover:translate-x-4 duration-300 rounded-2xl p-2 m-4 2xl:p-10">
                         <div className="block text-start">
                             <h2 className="text-2xl md:text-4xl">CSC258 Project</h2>
                             <p className="text-sm md:text-xl"> Simon &#40;game&#41; programmed with RISC-V </p>
                         </div>
                     </a>
-                    <a href="https://github.com/AlanZhaoGithub/portfolio-website" className="transition ease-in-out delay-50 hover:text-[#00FFFF]  hover:scale-110 hover:-translate-y-1 hover:translate-x-4 duration-300 rounded-2xl p-2 m-4 2xl:p-10">
+                    <a href="https://github.com/AlanZhaoGithub/portfolio-website" className="transition ease-in-out delay-50 hover:text-[#0000EE]  hover:scale-110 hover:-translate-y-1 hover:translate-x-4 duration-300 rounded-2xl p-2 m-4 2xl:p-10">
                         <div className="block text-start">
                             <h2 className="text-2xl md:text-4xl">Portfolio Website</h2>
                             <p className="text-sm md:text-xl"> Built with React & Tailwind, deployed using Next.js</p> 
