@@ -13,7 +13,7 @@ function AboutSection() {
 			</div>
 			<div className="flex flex-grow h-3/8 w-screen justify-items-center items-end flex-row">
 				<p className="leading-loose p-8 sm:p-12 ml-8 mr-24 mb-8 font-bold text-gray-200 text-sm lg:text-justify lg:text-2xl">
-				I&apos;m also known as Mxlding online. I am a passionate and driven third-year student pursuing a degree in Computer Science at the University of Toronto. I love solving problems and try to approach each challenge with enthusiasm, determination, and a passion for finding creative solutions.
+				I&apos;m also known as Mxlding online. I am a passionate and driven fourth-year student pursuing a degree in Computer Science at the University of Toronto. I love solving problems and try to approach each challenge with enthusiasm, determination in search of finding creative solutions.
 				</p>
 			</div>
 		</div>

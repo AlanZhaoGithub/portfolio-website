@@ -10,13 +10,10 @@ function ContactSection() {
 	return (
 		<div id="contacts" className="flex flex-col flex-grow h-screen justify-items-center items-center bg-black pr-8">
 			<div className="flex h-1/2 items-center self-center"> 
-				<h2 className="font-bold text-white text-2xl md:text-4xl px-16">Here are some ways to contact me.</h2>
+				<h2 className="font-bold text-white text-2xl md:text-4xl px-12">Here are some ways to contact me.</h2>
 			</div>
 			<div className="flex h-1/2 items-start self-center">
 				<div className="grid grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-24">
-					{
-					// mail + github how to deal with black bg turning into white; cannot see after the hover; possibly with invert?;;;;
-					}
 					<a href="mailto:zhaoalan01@gmail.com" className="transition hover:invert hover:bg-black rounded-2xl p-2"><LargeWhiteCodeIcon object={FaEnvelope} color="white"></LargeWhiteCodeIcon></a>
 					<a href="https://www.linkedin.com/in/alanzhao01/" target="_blank" className="transition hover:bg-[#FFFFFF] rounded-2xl p-2"><LargeWhiteCodeIcon object={FaLinkedin} color="#0A66C2"></LargeWhiteCodeIcon></a>
 					<a href="https://github.com/alanzhaogithub" target="_blank" className="transition hover:invert hover:bg-black rounded-2xl p-2"><LargeWhiteCodeIcon object={FaGithub} color="white"></LargeWhiteCodeIcon></a>
