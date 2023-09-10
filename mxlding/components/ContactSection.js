@@ -17,12 +17,12 @@ function ContactSection() {
 					{
 					// mail + github how to deal with black bg turning into white; cannot see after the hover; possibly with invert?;;;;
 					}
-					<a href="mailto:zhaoalan01@gmail.com" className="transition delay-100 hover:invert hover:bg-black rounded-2xl p-2"><LargeWhiteCodeIcon object={FaEnvelope} color="white"></LargeWhiteCodeIcon></a>
-					<a href="https://www.linkedin.com/in/alanzhao01/" target="_blank" className="transition delay-100 hover:bg-[#FFFFFF] rounded-2xl p-2"><LargeWhiteCodeIcon object={FaLinkedin} color="#0A66C2"></LargeWhiteCodeIcon></a>
-					<a href="https://github.com/alanzhaogithub" target="_blank" className="transition delay-100 hover:invert hover:bg-black rounded-2xl p-2"><LargeWhiteCodeIcon object={FaGithub} color="white"></LargeWhiteCodeIcon></a>
-					<a href="https://twitter.com/mxlding_" target="_blank" className="transition delay-100 hover:shadow-[0_0px_20px_0_rgba(0,0,0,0.3)] hover:bg-[#FFFFFF] rounded-2xl p-2"><LargeWhiteCodeIcon object={FaTwitter} color="#1DA1F2"></LargeWhiteCodeIcon></a>
-					<a href="https://discordapp.com/users/165135184591716352" target="_blank" className="transition delay-100 hover:shadow-[0_0px_20px_0_rgba(0,0,0,0.3)] hover:bg-[#FFFFFF] rounded-2xl p-2"><LargeWhiteCodeIcon object={FaDiscord} color="#7289DA"></LargeWhiteCodeIcon></a>
-					<a href="https://www.twitch.tv/mxlding" target="_blank" className="transition delay-100 hover:shadow-[0_0px_20px_0_rgba(0,0,0,0.3)] hover:bg-[#FFFFFF] rounded-2xl p-2"><LargeWhiteCodeIcon object={FaTwitch} color="6441a5"></LargeWhiteCodeIcon></a>
+					<a href="mailto:zhaoalan01@gmail.com" className="transition hover:invert hover:bg-black rounded-2xl p-2"><LargeWhiteCodeIcon object={FaEnvelope} color="white"></LargeWhiteCodeIcon></a>
+					<a href="https://www.linkedin.com/in/alanzhao01/" target="_blank" className="transition hover:bg-[#FFFFFF] rounded-2xl p-2"><LargeWhiteCodeIcon object={FaLinkedin} color="#0A66C2"></LargeWhiteCodeIcon></a>
+					<a href="https://github.com/alanzhaogithub" target="_blank" className="transition hover:invert hover:bg-black rounded-2xl p-2"><LargeWhiteCodeIcon object={FaGithub} color="white"></LargeWhiteCodeIcon></a>
+					<a href="https://twitter.com/mxlding_" target="_blank" className="transition hover:shadow-[0_0px_20px_0_rgba(0,0,0,0.3)] hover:bg-[#FFFFFF] rounded-2xl p-2"><LargeWhiteCodeIcon object={FaTwitter} color="#1DA1F2"></LargeWhiteCodeIcon></a>
+					<a href="https://discordapp.com/users/165135184591716352" target="_blank" className="transition hover:shadow-[0_0px_20px_0_rgba(0,0,0,0.3)] hover:bg-[#FFFFFF] rounded-2xl p-2"><LargeWhiteCodeIcon object={FaDiscord} color="#7289DA"></LargeWhiteCodeIcon></a>
+					<a href="https://www.twitch.tv/mxlding" target="_blank" className="transition hover:shadow-[0_0px_20px_0_rgba(0,0,0,0.3)] hover:bg-[#FFFFFF] rounded-2xl p-2"><LargeWhiteCodeIcon object={FaTwitch} color="6441a5"></LargeWhiteCodeIcon></a>
 				</div>
 			</div>
 		</div>
