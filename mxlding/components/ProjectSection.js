@@ -10,33 +10,33 @@ function ProjectSection() {
     return (
         <div id="projects" className="flex flex-col h-screen bg-black">
             <div className="flex flex-col flex-grow text-white text-4xl justify-center justify-items-center items-center">
-                <div className="flex w-screen justify-self-center justify-center p-4 border-b-2">
-                    <h1 className="text-8xl"> Projects </h1>
+                <div className="flex w-screen justify-self-center justify-center p-8">
+                    <h1 className="text-7xl md:text-8xl"> Projects </h1>
                 </div>
-                <div className="flex flex-col m-10">
+                <div className="flex flex-col m-4 md:m-10 pr-10">
                     {/*<div className="transition delay-250 hover:shadow-[0_0px_20px_0_rgba(0,0,0,0.3)] hover:bg-[#FFFFFF] hover:bg-opacity-40 rounded-2xl p-2 m-4 2xl:p-10 2xl:m-10"></div>*/}
                     <button className="transition ease-in-out delay-50 hover:scale-110 hover:-translate-y-1 hover:translate-x-4 duration-300 rounded-2xl p-2 m-4 2xl:p-10">
                         <div className="block text-start">
-                            <h2>CSC311 Project</h2>
-                            <p className="text-xl"> used SKlearn and google colabs to produce Bernoulli and Gaussian Models </p>
+                            <h2 className="text-2xl md:text-4xl">CSC311 Project</h2>
+                            <p className="text-sm md:text-xl"> Utilized SKlearn and Google Colabs to produce Bernoulli and Gaussian Models in relation to course materials and study </p>
                         </div>
                     </button>
                     <button className="transition ease-in-out delay-50 hover:scale-110 hover:-translate-y-1 hover:translate-x-4 duration-300 rounded-2xl p-2 m-4 2xl:p-10">
                         <div className="block text-start">
-                            <h2>CSC309 Project</h2>
-                            <p className="text-xl"> Created REST api and matched to frontend </p>
+                            <h2 className="text-2xl md:text-4xl">CSC309 Project</h2>
+                            <p className="text-sm md:text-xl"> Integrated a custom written RESTful api into frontend built with DaisyUI and React</p>
                         </div>
                     </button>
                     <button className="transition ease-in-out delay-50 hover:scale-110 hover:-translate-y-1 hover:translate-x-4 duration-300 rounded-2xl p-2 m-4 2xl:p-10">
                         <div className="block text-start">
-                            <h2>Portfolio Website</h2>
-                            <p className="text-xl"> react + tailwind deployed using next js </p> 
+                            <h2 className="text-2xl md:text-4xl">CSC258 Project</h2>
+                            <p className="text-sm md:text-xl"> Simon &#40;game&#41; programmed with RISC-V </p>
                         </div>
                     </button>
                     <button className="transition ease-in-out delay-50 hover:scale-110 hover:-translate-y-1 hover:translate-x-4 duration-300 rounded-2xl p-2 m-4 2xl:p-10">
                         <div className="block text-start">
-                            <h2>CSC258 Project</h2>
-                            <p className="text-xl"> Assembly program for simon game </p>
+                            <h2 className="text-2xl md:text-4xl">Portfolio Website</h2>
+                            <p className="text-sm md:text-xl"> Built with React & Tailwind, deployed using Next.js</p> 
                         </div>
                     </button>
                 </div>

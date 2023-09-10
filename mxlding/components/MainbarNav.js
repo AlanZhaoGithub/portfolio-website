@@ -21,7 +21,7 @@ function MainbarNav() {
         </div>
         <div className="flex items-center">
           <ul className="flex items-center space-x-4 sm:space-x-8">
-            <li className="font-semibold text-gray-200 text-xs sm:text-2xl underline-offset-4 hover:underline">
+            <li className="font-semibold text-gray-200 text-xs sm:text-2xl underline-offset-4 transition duration-150 hover:underline">
               <Link activeClass="active" to="about" smooth={true} offset={-5} duration={50}> About </Link>
             </li>
             <li className="font-semibold text-gray-200 text-xs sm:text-2xl underline-offset-4 hover:underline">
